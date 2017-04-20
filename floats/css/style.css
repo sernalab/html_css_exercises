@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background-color: #838283;
+	height: 200px;
+	width: 100%;
+}
+
+.nav{
+	background-color: #A2A2A2;
+	height: 20px;
+	width: 100%;
+}
+
+.main_content{
+	background-color: #D2D0D2;
+	display: inline-block;
+	height: 400px;
+	width: 700px;
+}
+
+.aside_content{
+	background-color: #333333;
+	display: inline-block;
+	height: 400px;
+	width: 210px;
+}
+
+.footer{
+	background-color: #838283;
+	height: 100px;
+	width: 100%;
+}

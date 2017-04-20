@@ -1,0 +1,24 @@
+
+h1, h2 {
+	color: #006511;
+}
+
+em{
+	color: #FFA200;
+}
+
+strong {
+	color: #FFA200;
+}
+
+tr td{
+	color: #83007D;
+}
+
+form label {
+	color: #83007D;
+}
+
+.orangeStyle{
+	color: orange;
+}

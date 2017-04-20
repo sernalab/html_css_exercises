@@ -1,0 +1,50 @@
+<!-- https://github.com/juanmaguitar/html-layouts-exercises/tree/master/02-form-exercise -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A simple Form</title>
+</head>
+<body>
+	<section>
+		<h1>A simple Form</h1>
+		<h3>Form fundamentals</h3>
+
+		<form action="/contact" method="POST">
+			
+			<fieldset style="width: 500px;">
+				<legend>Customer Info</legend>
+				<div>
+					<label for="name">
+						Name:
+						<input id="name" type="text" autofocus placeholder="Enter your name" required>
+					</label>
+				</div>
+				<div>
+					<label for="telephone">
+						Telephone:
+						<input type="text" placeholder="Pattern: 1-234-567-8910" pattern="\d{1}[\-]\d{3}[\-]\d{3}[\-]\d{4}" required>
+					</label>
+				</div>
+				<div>
+					<label for="email">
+						Email:
+						<input type="email" name="email" placeholder="Enter your mail adress" required>
+					</label>
+				</div>
+			</fieldset>
+			
+			<fieldset style="width: 500px;">
+				<legend>Books</legend>
+					<input type="text">
+				<label>
+					Quantity: (maximum 5)
+					 <input type="number" name="quantity" min="1" max="5">
+				</label>
+			</fieldset>
+			<input type="submit">
+		</form>
+
+	</section>
+</body>
+</html>
