@@ -11,7 +11,7 @@ This repository contains my exercises made in class (2017).
 [JuanMa Exercises](https://github.com/juanmaguitar/html-layouts-exercises/tree/master/02-form-exercise)
 
 1. __HTML5 Form__
-    + [code](https://github.com/sernalab/html_css_exercises/blob/master/exercises_html/form_challenge/index.html)
+    + [code](https://github.com/sernalab/html_css_exercises/blob/master/form_challenge/index.html)
 
 -----
 
@@ -21,15 +21,15 @@ This repository contains my exercises made in class (2017).
 
 [JuanMa Extra Exercises](https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/)
 
-1. __Calculator__
-    + [code](https://github.com/sernalab/html_css_exercises/tree/master/exercises_html/layout)
+1. __Layout__
+    + [code](https://github.com/sernalab/html_css_exercises/tree/master/layout)
 
 
 -----
 
 ### SELECTORS
 
-[JuanMa Extra Exercises](https://github.com/juanmaguitar/html5-css3-challenges/tree/master/2-selectors)
+[JuanMa Extra Exercises](https://github.com/sernalab/html_css_exercises/tree/master/selectors)
 
 1. __Selectors__
     + [code](https://github.com/sernalab/html_css_exercises/blob/master/exercises_html/selectors/index.html)
@@ -41,7 +41,7 @@ This repository contains my exercises made in class (2017).
 [JuanMa Extra Exercises](https://github.com/juanmaguitar/html5-css3-challenges/tree/master/3-floats)
 
 1. __Floats__
-    + [code](https://github.com/sernalab/html_css_exercises/tree/master/exercises_html/floats)
+    + [code](https://github.com/sernalab/html_css_exercises/tree/master/floats)
 
 -----
 
@@ -50,7 +50,7 @@ This repository contains my exercises made in class (2017).
 [JuanMa Extra Exercises](https://github.com/juanmaguitar/html5-css3-challenges/tree/master/3-floats)
 
 1. __Layout2__
-    + [code](https://github.com/sernalab/html_css_exercises/tree/master/exercises_html/layout_2)
+    + [code](https://github.com/sernalab/html_css_exercises/tree/master/layout_2)
 
 -----
 
@@ -59,7 +59,7 @@ This repository contains my exercises made in class (2017).
 [JuanMa Extra Exercises](https://github.com/juanmaguitar/html5-css3-challenges/tree/master/3-floats)
 
 1. __Landing__
-    + [code](https://github.com/sernalab/html_css_exercises/tree/master/exercises_html/landing)
+    + [code](https://github.com/sernalab/html_css_exercises/tree/master/landing_mail_chimp)
 
 -----
 
@@ -67,7 +67,7 @@ This repository contains my exercises made in class (2017).
 
 [JuanMa Extra Exercises](https://github.com/juanmaguitar/CSS3-challenges/tree/master/06-reset-fonts-styles/materials)
 
-1. __Inline internal stylesheets__
+1. __A reset.css file__
     + [code](https://github.com/sernalab/html_css_exercises/tree/master/exercises_html/landing)
 
 
