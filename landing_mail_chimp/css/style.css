@@ -3,22 +3,39 @@
 	padding: 0;
 }
 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	margin: 0;
+}
+
 header{
 	background-color: #42bdd6;
 }
-
-header .menu {
-	display: inline-block;
-	float: right;
-}
+	header .menu {
+		display: inline-block;
+		float: right;
+	}
 
 header ul{
 	list-style: none;
 }
+	header ul li a{
+		color: black;
+		text-decoration: none;
+	}
 
-header ul li a{
-	color: black;
-	text-decoration: none;
+section .main-content img {
+	float: left;
+}
+	section .main-content .content-text h1{
+		color: white;
+	}
+
+.content{
+	background-color: #42bdd6;
 }
 
 .sign-up{
