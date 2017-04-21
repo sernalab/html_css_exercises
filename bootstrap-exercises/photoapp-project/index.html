@@ -2,9 +2,158 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>My Bootstrap Project</title>
+	<title>Photo App</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<style>
 	
+</style>
+<body>
+	<!-- starting layout -->
+	
+	<nav class="navbar navbar-default">
+		<div class="container">
+		    <div class="navbar-header">
+		    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+		      <a class="navbar-brand" href="#">Gamma</a>
+		    </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li><!-- Comentar linea -->
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Contact</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	
+	<!-- <div class="row">
+		<div class="container jumbotron jumbotron-custom">
+			<div class="col-md-6">
+				<h1>Capture <span>Life</span></h1>
+				<p>A fun and easy way to capture & sharethe moments you live for</p>
+				<p>
+					<a class="btn btn-primary btn-lg" href="#" role="button">Learn more
+				  	</a>
+				</p>
+			</div>
+			<div class="col-md-6">
+				<h1>Capture <span>Life</span></h1>
+				<p>A fun and easy way to capture & sharethe moments you live for</p>
+				<p>
+					<a class="btn btn-primary btn-lg" href="#" role="button">Learn more
+				  	</a>
+				</p>
+			</div>
+		</div>	
+	</div> -->
+	
+	<div class="row">
+		<div class="col-md-12 jumbotron-custom">
+			<div class="container">
+				<div class="col-md-6">
+					<div class="container">
+						<h1>Capture <span>Life</span></h1>
+						<p>A fun and easy way to capture & sharethe moments you live for</p>
+						<div class="col-md-6">
+							<a class="btn" href="#" role="button">
+							<img class="apple-button" src="img/icon_app_store.png" alt="">
+						  	</a>
+						
+							<a class="btn" href="#" role="button">
+								<img class="google-button" src="img/icon_google_play.png" alt="">
+						  	</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+						<img class="cover-iphone" src="img/site_phone.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- END HEADER AND COVER -->
+
+	<!-- STARTS THUMBNAILS -->
+
+	<div class="row">
+		<div class="col-md-12">
+			<div class="container margin-top">
+				<div class="col-md-4">
+				    <div class="thumbnail">
+				    	<img class="img-caption" src="img/demo1.png" alt="demo1">
+				    		<div class="caption">
+						        <h3>scotcher</h3>
+						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa neque, voluptatem totam aspernatur rerum. Inventore quis veniam illum dicta sapiente, nemo suscipit nesciunt. Nisi, quis illum? Sequi cum assumenda rerum.</p>
+						        <p>
+						        	<a href="#" class="btn btn-default" role="button">Read more</a></p>
+				    		</div>
+				    </div>
+				</div>
+				<div class="col-md-4">
+				    <div class="thumbnail">
+				    	<img class="img-caption" src="img/demo2.jpg" alt="demo2">
+				    		<div class="caption">
+						        <h3>cabalistically</h3>
+						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum laborum, quos ipsam, autem doloribus necessitatibus explicabo reiciendis in architecto cupiditate cumque suscipit saepe debitis eaque quas corporis magni culpa voluptatibus.</p>
+						        <a href="#" class="btn btn-default" role="button">Read more</a></p>
+				    		</div>
+				    </div>
+				</div>
+				<div class="col-md-4">
+				    <div class="thumbnail">
+				    	<img class="img-caption" src="img/demo3.jpg" alt="demo3">
+				    		<div class="caption">
+						        <h3>jargonium</h3>
+						        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae vero sed, omnis placeat adipisci commodi. Laborum laboriosam perferendis recusandae consectetur non, praesentium, fugiat maiores accusantium et, iusto, placeat voluptate atque?</p>
+						    	<a href="#" class="btn btn-default" role="button">Read more</a></p>
+				    		</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-green">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="list">
+						<h1>Gamma Features</h1>
+						<ul>
+							<li><i class="glyphicon glyphicon-ok"></i>charlatanistic</li>
+							<li><i class="glyphicon glyphicon-ok"></i>unembattled</li>
+							<li><i class="glyphicon glyphicon-ok"></i>bleekbok</li>
+							<li><i class="glyphicon glyphicon-ok"></i>overtipple</li>
+							<li><i class="glyphicon glyphicon-ok"></i>empathically</li>
+						</ul>
+					</div>			
+				</div>
+				<div class="col-md-6">
+						<div class="icon">
+							<p><i class="glyphicon glyphicon-camera"></i>255x206</p>
+						</div>			
+				</div>					
+			</div>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Latest compiled and minified JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>

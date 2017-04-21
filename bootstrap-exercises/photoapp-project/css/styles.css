@@ -1,0 +1,81 @@
+/*HEADER & COVER*/
+
+.navbar{
+		margin-bottom: 0;
+	}
+
+.jumbotron-custom{
+	background-image:url('../img/site_showcase_bg.jpg');
+	width: 100%;
+}
+.jumbotron-custom .container{
+	padding: 0 5px;
+}
+.jumbotron-custom .container h1{
+	color: white;
+	font-size: 5em;
+	margin-top: 100px;
+}
+.jumbotron-custom .container span{
+	color: #00b69e;
+}
+.jumbotron-custom .container>p{
+	color: white;
+	font-size: 1.5em;
+	margin-top: 40px;
+}
+
+.apple-button{
+	height: 60px;
+}
+
+.cover-iphone{
+	margin-top: 50px;
+	margin-left: 60px;
+	height: 450px;
+	width: 360px;
+}
+
+.margin-top{
+	margin-top: 60px;
+}
+
+/*THUMBNAILS*/
+
+.thumbnail{
+	border: 0;
+}
+
+.thumbnail .img-caption{
+	border: 1px solid;
+	padding: 1px;
+	margin: 2px;
+}
+
+/*LIST & ICON*/
+
+.bg-green{
+	background-color: #00b69e;
+}
+
+.list h1{
+	color: white;
+}
+
+.list li{
+	color: white;
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
