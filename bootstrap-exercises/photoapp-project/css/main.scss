@@ -1,15 +1,14 @@
 /*VARS*/
-
-
+$green-color: #00b69e;
 
 /*HEADER & COVER*/
 
 .navbar{
-		margin-bottom: 0;
-	}
+	margin-bottom: 0;
+}
 
 .navbar .container span{
-	color: #00b69e;
+	color: $green-color;
 }
 
 .jumbotron-custom{
@@ -25,7 +24,7 @@
 	margin-top: 100px;
 }
 .jumbotron-custom .container span{
-	color: #00b69e;
+	color: $green-color;
 }
 .jumbotron-custom .container>p{
 	color: white;
@@ -63,7 +62,7 @@
 /*LIST & ICON*/
 
 .bg-green{
-	background-color: #00b69e;
+	background-color: $green-color;
 }
 .list{
 	margin: 60px 0 60px 60px;
@@ -134,7 +133,27 @@
 		margin-left: 60px;
 		margin-bottom: 20px;
 	}
+	.icon i{
+		font-size: 250px;
+		margin: 0px 0 50px 50px;
+	}
 }
+
+
+/*##########
+##########
+ABOUT PAGE
+##########
+##########*/
+
+.section-header{
+	background-color: $green-color;
+	}
+	h1{
+		margin-bottom: 20px;
+	}
+
+
 
 
 

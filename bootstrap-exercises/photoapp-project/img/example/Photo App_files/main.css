@@ -85,7 +85,6 @@
 @media (max-width: 480px) {
   .jumbotron-custom .container h1 {
     font-size: 3.5em;
-    text-align: center;
     margin-top: 50px; }
 
   .jumbotron-custom .container p {
@@ -113,15 +112,5 @@
   .icon i {
     font-size: 250px;
     margin: 0px 0 50px 50px; } }
-/*##########
-##########
-ABOUT PAGE
-##########
-##########*/
-.section-header {
-  background-color: #00b69e; }
-
-h1 {
-  margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
